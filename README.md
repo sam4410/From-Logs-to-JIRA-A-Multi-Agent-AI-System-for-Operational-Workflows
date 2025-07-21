@@ -116,7 +116,7 @@ pip install pandas
 ---
 
 ## 📌 Credits
-Inspired by [Anubha Bhaik’s blog](https://medium.com/@anubha.bhaik) and adapted with CrewAI.
+Inspired by [Anubha Bhaik’s blog]([https://medium.com/@anubha.bhaik](https://pub.towardsai.net/designing-a-scalable-multi-agent-ai-system-for-operational-intelligence-ab6c4a7f331a)) and adapted with CrewAI.
 
 ---
 
