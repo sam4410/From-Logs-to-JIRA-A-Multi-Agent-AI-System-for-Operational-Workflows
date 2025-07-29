@@ -1,0 +1,179 @@
+Contract Export	RPT908 - Contract Transaction Details
+Account Number	Insurer Code
+Accounting Period	Product Type Code
+Activation Date	Coverage Code
+Agent	Dealer Number
+Alternate Name	Dealer Name
+Amount Financed	Dealer Insured State
+APR	Contract Number
+Balloon Amount	Transaction Date
+Billing Date	Transaction Type
+Cancel Amount	Billed Date
+Cancel Amount (w/out Tax)	Contract Sale Date
+Cancel Bill Date	Customer Last Name
+Cancel Factor %	Customer First Name
+Cancel Method	Vehicle Age Type
+Cancel Reason	VIN
+Cancel Report Date	Vehicle Model Year
+Cancellation Effective Date	Vehicle Make
+Cancellation Fee	Vehicle Model
+Cancellation Miles	Vehicle Class
+Check Date	Term Months
+Check Number	Term Mileage
+Co-Buyer Address 1	Dealer Remit
+Co-Buyer Address 2	Net Dealer Billing
+Co-Buyer City	Retail Rate
+Co-Buyer Country	Cancellation Date
+Co-Buyer Email	Number of Days in Force
+Co-Buyer First Name	Cancellation Factor
+Co-Buyer Last Name	Cancel Fee
+Co-Buyer Phone Number	Customer Write off amount
+Co-Buyer Secondary Phone Number	Cancellation Reason
+Co-Buyer State	Cancellation No Charge Back Amount
+Co-Buyer Zip Code	Cancel Dealer Remit
+Contract #	Cancellation Retail Rate
+Contract Payment Batch Number	Paid Claim Deduction
+Contract Status	ADMIN 1 Label
+Coverage Code	ADMIN 1 Amount
+Coverage Name	ADMIN 2 Label
+Created By User	ADMIN 2 Amount
+Culture	ADMIN 3 Label
+Currency	ADMIN 3 Amount
+Customer Address 1	ADMIN 4 Label
+Customer Address 2	ADMIN 4 Amount
+Customer City	ADMIN 5 Label
+Customer Country	ADMIN 5 Amount
+Customer Email	ADMIN 6 Label
+Customer First Name	ADMIN 6 Amount
+Customer Last Name	ADMIN 7 Label
+Customer Phone Number	ADMIN 7 Amount
+Customer Secondary Phone	ADMIN 8 Label
+Customer State	ADMIN 8 Amount
+Customer Write Off Amount	ADMIN 9 Label
+Customer Zip Code	ADMIN 9 Amount
+Deal Number	ADMIN 10 Label
+Dealer Address 1	ADMIN 10 Amount
+Dealer Address 2	ADMIN 11 Label
+Dealer City	ADMIN 11 Amount
+Dealer Country	ADMIN 12 Label
+Dealer Group Management Company Name	ADMIN 12 Amount
+Dealer Group OEM Name	ADMIN 13 Label
+Dealer Group Principal Name	ADMIN 13 Amount
+Dealer Group Region Name	ADMIN 14 Label
+Dealer Name	ADMIN 14 Amount
+Dealer Number	ADMIN 15 Label
+Dealer Remit tax 1	ADMIN 15 Amount
+Dealer Remit tax 2	RESERVE 1 Label
+Dealer State/Province	RESERVE 1 Amount
+Dealer Zip Code	RESERVE 2 Label
+Deductible Amount	RESERVE 2 Amount
+Effective Date	COMMISSION 1 Label
+Effective Odometer	COMMISSION 1 Amount
+Entry Date	COMMISSION 2 Label
+Expiration Date	COMMISSION 2 Amount
+Expiration Odometer	COMMISSION 3 Label
+F&I Manager EID	COMMISSION 3 Amount
+F&I Manager Licence #	COMMISSION 4 Label
+F&I Manager Name	COMMISSION 4 Amount
+F&I Markup	COMMISSION 5 Label
+Finance Type	COMMISSION 5 Amount
+Finance/Lease Term	COMMISSION 6 Label
+First Payment Date	COMMISSION 6 Amount
+In-Service Date	COMMISSION 7 Label
+Insurance Company	COMMISSION 7 Amount
+Insurance Company Code	Customer Cancel Fee
+Invoice	Tax 1 Label
+Lender	Tax 1 Amount
+Monthly Payment	Tax 2 Label
+MSRP/NADA	Tax 2 Amount
+Net Cost	Payment Type
+Paid Claim Deduction	Transaction Details
+Pay Method	Transaction Type
+Payee Type	Transaction Id
+Payment Frequency	Deal Number
+Product Type	Association Code
+Reason	Lender
+Ref. Number	Reference Number
+Refund From Dealer	Obligor
+Refund From TPA	
+Register Ref #	
+Remittance Number	
+Report Group	
+Retail Cost	
+Retail Refund Base	
+Retail Tax 1	
+Retail Tax 2	
+Sale Date	
+Sale Odometer	
+Source	
+Status (New Business, Cancellation, Upgrade, Adjustment)	
+Stock Number	
+Submitted Amount	
+Term Mileage	
+Term Month	
+Term Months/Term Distance	
+Tier	
+Total Admin	
+Total Commission	
+Total Dealer Remit Taxes	
+Total Options/Surcharges	
+Total Payments	
+Total Reserves	
+Total Retail Taxes	
+Vehicle Age Type	
+Vehicle Class	
+Vehicle Color	
+Vehicle Make	
+Vehicle Model	
+Vehicle Nitrogen Installed	
+Vehicle Purchase Price	
+Vehicle Year	
+VIN	
+WrittenAmount.ADMIN.ADJ	
+WrittenAmount.ADMIN.AGTNCB	
+WrittenAmount.ADMIN.BASEADMIN	
+WrittenAmount.ADMIN.CLIP	
+WrittenAmount.ADMIN.CMPNHLDRSRV	
+WrittenAmount.ADMIN.DLRADV	
+WrittenAmount.ADMIN.FEDTAX	
+WrittenAmount.ADMIN.INCENT	
+WrittenAmount.ADMIN.MKTG	
+WrittenAmount.ADMIN.NCBFEE	
+WrittenAmount.ADMIN.PREM	
+WrittenAmount.ADMIN.REFUNDRSRV	
+WrittenAmount.ADMIN.SWATAX	
+WrittenAmount.ADMIN.THIRDPARTY	
+WrittenAmount.ADMIN.THIRDPARTY2	
+WrittenAmount.COMMISSION.ADVAGTCOMM	
+WrittenAmount.COMMISSION.AGTPCK	
+WrittenAmount.COMMISSION.DLROVERRIDE	
+WrittenAmount.COMMISSION.DLRPCK	
+WrittenAmount.COMMISSION.OVRAGT	
+WrittenAmount.COMMISSION.PERFPTS	
+WrittenAmount.COMMISSION.SPIFF	
+WrittenAmount.RESERVE.RESERVE	
+WrittenAmount.RESERVE.RISKADJ	
+CancelledAmount.ADMIN.ADJ	
+CancelledAmount.ADMIN.AGTNCB	
+CancelledAmount.ADMIN.BASEADMIN	
+CancelledAmount.ADMIN.CLIP	
+CancelledAmount.ADMIN.CMPNHLDRSRV	
+CancelledAmount.ADMIN.DLRADV	
+CancelledAmount.ADMIN.FEDTAX	
+CancelledAmount.ADMIN.INCENT	
+CancelledAmount.ADMIN.MKTG	
+CancelledAmount.ADMIN.NCBFEE	
+CancelledAmount.ADMIN.PREM	
+CancelledAmount.ADMIN.REFUNDRSRV	
+CancelledAmount.ADMIN.SWATAX	
+CancelledAmount.ADMIN.THIRDPARTY	
+CancelledAmount.ADMIN.THIRDPARTY2	
+CancelledAmount.COMMISSION.ADVAGTCOMM	
+CancelledAmount.COMMISSION.AGTPCK	
+CancelledAmount.COMMISSION.DLROVERRIDE	
+CancelledAmount.COMMISSION.DLRPCK	
+CancelledAmount.COMMISSION.OVRAGT	
+CancelledAmount.COMMISSION.PERFPTS	
+CancelledAmount.COMMISSION.SPIFF	
+CancelledAmount.RESERVE.RESERVE	
+CancelledAmount.RESERVE.RISKADJ	
