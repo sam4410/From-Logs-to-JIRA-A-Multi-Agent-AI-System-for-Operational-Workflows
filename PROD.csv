@@ -9,8 +9,6 @@ Accounting Interfaces	READ Accounting Setup												Y
 	DELETE Accounting Setup Assignment												Y
 Admin Override	EDIT Active Contract Status to Pending												Y
 	EDIT Expired Contract Status to Active												Y
-	SUPPRESS Contract Alerts												
-	SUPPRESS Claim Alerts												
 	SUPPRESS Coverage Alerts	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 Agents	READ Agent (Search Agent)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ADD Agent												Y
@@ -26,9 +24,6 @@ Agents	READ Agent (Search Agent)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ADD Notes						Y	Y				Y	Y
 	EDIT Notes						Y					Y	Y
 	DELETE Notes												Y
-	VIEW Managing Agent												
-	EDIT Managing Agent												
-	ACCESS Secure Documents												
 Automatic Payment	READ Automatic Payments Schedules												Y
 	ADD Automatic Payments Schedules												Y
 	EDIT Automatic Payments Schedules												Y
@@ -40,7 +35,6 @@ Billing	READ Billing Payment History												Y
 	VOID Payment												Y
 	ADD Dealer Balance Adjustment												Y
 	DELETE Payment												Y
-	Import Process - IMPORT Applied Payment												
 Bundle Containers	READ Bundle Container												Y
 	ADD Bundle Container												Y
 	EDIT Bundle Container												Y
@@ -77,7 +71,6 @@ Catalogs	READ Categories					Y	Y					Y	Y
 	READ Positions						Y					Y	Y
 	ADD Positions					Y						Y	Y
 	EDIT Positions											Y	Y
-	DELETE Positions												
 	READ Tiers						Y					Y	
 	ADD Tiers											Y	
 	EDIT Tiers											Y	
@@ -118,13 +111,11 @@ Claim	READ Claim (Search Claim)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	EDIT Assigned To					Y	Y	Y				Y	Y
 	User Listed in Assigned To	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	Require Activity on Primary Claim Screen	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y		Y
-	Require Est. Completion field on Primary Claim Screen												
 	Claim Supervisor						Y	Y		Y		Y	Y
 	READ Incoming Documents	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	READ Secure Documents		Y							Y			Y
 	ADD Incoming Documents	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	EDIT Incoming Documents	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	Require Incoming Document												
 	DELETE Incoming Documents						Y					Y	Y
 	READ Outgoing Documents (GAP)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	SEND Outgoing Documents (GAP)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
@@ -133,7 +124,6 @@ Claim	READ Claim (Search Claim)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	READ Notes	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ADD Notes	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ADD Notes and Documents to Claim locked by another User	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	ADD External Notes												
 	EDIT Notes						Y	Y				Y	Y
 	DELETE Notes											Y	Y
 	VOID Payment								Y	Y		Y	Y
@@ -178,35 +168,21 @@ Claim	READ Claim (Search Claim)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	EDIT Latest Claim (Odom/RO#) on ''Start Claim'			Y					Y	Y	Y	Y	Y
 	REQUIRE Contact Email on Start Claim												Y
 	REQUIRE Contact Phone on Start Claim												Y
-	Open Start Claim/ Redemption Screen for VSC												
-	Open Start Claim/ Redemption Screen for TIRE												
-	Open Start Claim/ Redemption Screen for LTW												
-	Open Start Claim/ Redemption Screen for Bundle												
-	Open Start Claim/ Redemption Screen for PPM												
-	ADD PPM Claim on Active Contracts												
-	ADD PPM Claim on Pending-Funded Contracts												
-	ADD PPM Claim from Start Claim/ Redemption on Expired Contract with Buffer												
 	PPM Start Claim/ Redemption - ENTER Redemption Amount (Blank)									Y		Y	
 	PPM - EDIT Prepopulated Redemption Amount											Y	
 	PPM - Authorize/Approve Amount up to	Y-$500	Y-$500	Y-$500	Y-$500	Y-$500	Y-$500	Y-$5,000	Y-$250	Y-$500	Y-$150	Y-$500	Y-$10,000
 	PPM Start Claim/Redemption - Override Service Schedule	Y	Y	Y		Y	Y	Y				Y	Y
 	PPM Small Claim Screen- EDIT Quantities/ Amounts						Y		Y	Y	Y	Y	Y
 	PPM Start Claim/Redemption - Receive Instant WEX/Connexpay Payment											Y	Y
-	PPM Start Claim/Redemption - Receive Instant CHASE Payment												
 	PPM - Add Additional Service	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	PPM Start Claim/Redemption - Credit Card Payment Limit:								Y-$500	Y-$500	Y-$500	Y-$500	Y-$10,000
-	Open Start Claim/ Redemption Screen for AP/ PDR												
 	PDR Start Claim/Redemption - Display VIN Photo	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	PDR Start Claim/Redemption - Require VIN Photo												
 	PDR Start Claim/Redemption - Display Vehicle Photo	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	PDR Start Claim/Redemption - Require Vehicle Photo												
 	AP/PDR  Start Claim/Redemption - Require Photos											Y	
 	AP/PDR Start Claim/Redemption - Ability to Override Claim Amount	Y-$10,000	Y-$10,000			Y-$2,500	Y-$10,000	Y-$10,000	Y-$7,500			Y-$7,999	Y-$10,000
 	AP/PDR on Start Claim/Redemption or Primary Screen - Credit Card Payment Limit:								Y-$7,500	Y-$10,000	Y-$7,500	Y-$7,999	Y-$10,000
 	AP Start Claim/Redemption - Display VIN Photo	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	AP Start Claim/Redemption - Require VIN Photo												
 	AP Start Claim/Redemption - Display Vehicle Photo	Y	Y	Y	Y	Y	Y	Y	Y		Y	Y	Y
-	AP Start Claim/Redemption - Require Vehicle Photo												
 	READ Email Notes	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ACCESS Servicer Claims Dashboard												Y
 	Claim Adjuster (for Reporting)	Y	Y	Y	Y	Y							Y
@@ -250,8 +226,6 @@ Claim	READ Claim (Search Claim)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	VIEW Service Details Tab	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	VIEW SO Summary Tab	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	VIEW Status Log Tab	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	VERIFY Documents												
-	EDIT Document Received Date												
 Claim - Self Authorization	READ Self-Authorization Profiles (Search)											Y	Y
 	EDIT Self-Authorization Profiles											Y	Y
 	ADD Self-Authorization Profiles											Y	Y
@@ -266,7 +240,6 @@ Claim Credit Cards	PAY with Credit Card								Y	Y	Y	Y	Y
 	READ Credit Card - Account History			Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	RESEND Credit Card								Y	Y	Y	Y	Y
 	VOID and REISSUE Credit Card Payment								Y	Y	Y	Y	Y
-	SEE Credit Card Image - when requesting												
 	READ Credit Card Number/ See Image	Y	Y	Y	Y				Y	Y	Y	Y	Y
 	Credit Card Payment Limit on Primary Claim Screen:								Y-$40,000	Y-$50,000	Y-$25,000	Y-$7,999	Y
 	READ Order Inquire Request (from Payment History)	Y	Y	Y	Y				Y	Y	Y	Y	Y
@@ -298,30 +271,18 @@ Contract	ALLOW user to change from Rejected to Pending												Y
 	Underwriting Supervisor												Y
 	ALLOW user to view Coverage Tab	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	READ Contracts (Search Contracts) 	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	DETACH claim/redemption from service schedule												
 	SEARCH Contracts within ALL Dealers	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	SEARCH Contracts within own Dealer Group - Principal	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	SEARCH Contracts within own Dealer Group - OEM												Y
 	READ Open For Edits on Contracts (re-rates Contracts upon save)											Y	Y
 	OPEN for Edits for Contracts with Claims												Y
 	Open for edit pending contracts												Y
-	Can Edit F&I Manager												
 	Edit Class and Tier												Y
-	ADD Contracts												
 	ADD Contracts (NEW)											Y	Y
 	ADD Contracts (Quick Rater)												Y
-	ADD Blank Contract												
 	Quick Rater												Y
 	ACTIVATE Contracts												Y
-	Refresh Contract from External System												
 	EDIT Contracts							Y	Y	Y		Y	Y
-	PREVENT Active Contracts Edit 30 Days After Sale Date												
-	Allow Rating Date to be X days after Sale Date with error												
-	Allow Rating Date to be X days after Sale Date with warning												
-	Allow Rating Date to be X days prior to Sale Date with error												
-	Allow Rating Date to be X days prior to Sale Date with warning												
-	Sale date cannot be greater than X days from current date.												
-	Show Rating Date												
 	EDIT Contract Number												Y
 	EDIT VIN on Active Contract												Y
 	EDIT Sale Odometer on Active Contract												Y
@@ -330,29 +291,21 @@ Contract	ALLOW user to change from Rejected to Pending												Y
 	EDIT First/Last Name						Y	Y	Y	Y		Y	Y
 	EDIT Address Information						Y	Y	Y	Y		Y	Y
 	EDIT Reference Number												Y
-	EDIT Guardian												
 	EDIT Manufacturer Warranty Field											Y	Y
 	EDIT Selling Retailer Code												Y
 	EDIT Warranty In-Service Date												Y
 	EDIT Deal Number												Y
 	TRANSFER Contracts								Y	Y	Y		Y
 	REQUIRED to upload document to Transfer								Y	Y	Y		
-	REQUIRED to email Administrator instead of Transfer												
 	ALLOW to override/edit the Transfer fee on Contracts Transfer								Y	Y	Y		Y
 	CANCEL Contracts <= Retail Rate												Y-$1,000,000
-	CANCEL Contracts with Odometer greater than Expiration Odometer												
 	REINSTATE Contracts												Y
 	PROCEED Cancel Contracts												Y
 	REJECT Contracts without claims												Y
-	REJECT Contracts with or without claims												
-	REJECT Contracts that has been run through a process register												
 	VOID Contracts without claims												Y
 	VOID Contracts with or without claims												Y
-	VOID Contracts that has been run through a process register												
 	DELETE Contracts												Y
 	LOAD Deal												Y
-	License # Required for Contract Sale in Ontario												
-	Employee ID (EID) Required												
 	READ Transactions						Y					Y	Y
 	READ Billing Transactions						Y					Y	Y
 	CREATE Manual Contract Transaction												Y
@@ -380,7 +333,6 @@ Contract	ALLOW user to change from Rejected to Pending												Y
 	DELETE Documents												Y
 	READ Payment						Y					Y	Y
 	READ Service Schedule						Y					Y	Y
-	CAN REBUILD Service Schedule												
 	READ Payment Configuration						Y					Y	Y
 	EDIT Payment Configuration												Y
 	EDIT Retail Sales Taxes												Y
@@ -389,7 +341,6 @@ Contract	ALLOW user to change from Rejected to Pending												Y
 	DELETE Payment History												Y
 	USE Contracts Batch Entry												Y
 	View Coupons Tab						Y					Y	Y
-	READ RVI/ETAV Data												
 	ADD Model											Y	Y
 	READ Cancellation Payment						Y					Y	Y
 	PERFORM Cancellation Payment												Y
@@ -401,37 +352,20 @@ Contract	ALLOW user to change from Rejected to Pending												Y
 	SUBMIT Contracts to Provider												Y
 	USE Warranty Evaluator											Y	
 	PROCESS Contracts Payments												Y
-	Can Create Quote												
 	Can access only his/her quotes												Y
 	Can access any quotes within the dealer												Y
-	Overwrite In-Service Date provided by other system												
 	Can View product summary on Add Contract/Quick Rater												Y
-	EDIT Contract Reason												
-	View Agent on Contract												
 	Add Contract/QR open existing contract in PCRS+												Y
-	ACCESS GAP Rates & Guidelines												
-	ACCESS Theft Product Rates												
 	Edit Contract Audit Log												Y
 	Can Open View Products											Y	Y
 	Unregister Contract												Y
-	READ Identification Number												
 	Supervisor Override Special Edit												Y
-	EDIT Identification Number												
-	Access Presentation Settings Screen												
-	Disable Print Preview												
 	View contract history					Y	Y	Y				Y	Y
-	Allow In-Service Date to be X days in Future from Sale Date												
 	Generate Rating Chart												Y
 	Allow user to edit Billing Party												Y
-	ACCESS Secure Documents												
-	READ Survey												
-	EDIT Survey												
-	Hide Rate Book on Edit Contract												
 	READ Report Group								Y				
 	VIEW Covered Products History					Y	Y					Y	Y
 	Expire Contract												Y
-	VERIFY Documents												
-	EDIT Document Received Date												
 Contract Cancellation Details	SAVE Cancellation Quote (Original Selling Dealer)		Y				Y						Y
 	SAVE Cancellation Quote (Non-Selling Dealer)		Y				Y						Y
 	SHOW Net/Dealer cost for Non-Selling Dealer						Y						Y
@@ -443,170 +377,20 @@ Contract Cancellation Details	SAVE Cancellation Quote (Original Selling Dealer)	
 	EDIT Cancellation Factor												Y
 	EDIT Retail Cost												Y
 	EDIT Paid Claim Deduction (cannot increase)												Y
-	OVERRIDE Paid Claim Deduction												
 	EDIT Retail Tax Amount												Y
 	EDIT Cancellation Fee Amount												Y
 	EDIT Seller Cancellation Fee Amount												Y
 	EDIT Non-Refundable Admin Amount												Y
-	REQUIRED to upload document before cancel (Original Selling Dealer) <= Retail Rate												
-	REQUIRED to upload document before cancel (Non-Selling Dealer) <= Retail Rate												
-	REQUIRED to email Admin instead of Cancel (Non-Selling Dealer), > CXL Effective Days												
-	REQUIRED to upload documents if cancellation After Days > CXL Effective Days												
-	REQUIRED to email Administrator instead of cancel (Non-Selling Dealer)												
-	REQUIRED to email Administrator instead of cancel (Original Selling Dealer) 												
-	REQUIRED to email Admin instead of Cancel (Original Selling Dealer), > CXL Effective Days												
-	SHOW Contracts Details to NSD (Non-Selling Dealer)												
-	REQUIRED to email Admin and Upload document instead of Cancel (Non-Selling Dealer), > CXL Effective Days												
-	REQUIRED to email Admin and Upload document instead of Cancel (Original Selling Dealer), > CXL Effective Days												
 	ALLOW Cancellation Effective Date Before Today, Day(s) <=												Y-$3,650
 	EDIT No Charge Back												Y
-	Allow cancellations only within days between Sale Date and current date. Day(s) <=												
 	Allow cancellation if Cancel Odom is less than 'Odometer' on the claim												Y
 	Allow cancellation if Cancel Effect Date is before the Claim RO Date/Date of Loss												Y
-Contracting API	Enable menu: A2Z Sync												
-	Enable menu: ADP												
-	Enable menu: AGWS												
-	Enable menu: ASN Software												
-	Enable menu: AutoFi												
-	Enable menu: Automatic (PEN)												
-	Enable menu: Automatic USA												
-	Enable menu: AutoMatrix (FIE)												
-	Enable menu: AutoSoft Go (PEN)												
-	Enable menu: Autrella												
-	Enable menu: Car Capital (FIE)												
-	Enable menu: Car Gurus (PEN)												
-	Enable menu: CarGurus												
-	Enable menu: CarNow												
-	Enable menu: CarNow (PEN)												
-	Enable menu: CarSaver												
-	Enable menu: CarZato												
-	Enable menu: CDK												
-	Enable menu: CDK (FIE)												
-	Enable menu: CDK (PEN)												
-	Enable menu: CyberCalc(FIE)												
-	Enable menu: Darwin												
-	Enable menu: Darwin (PEN)												
-	Enable menu: DCS Software												
-	Enable menu: Dealer Click												
-	Enable menu: Dealer eProcess (FIE)												
-	Enable menu: Dealer Track (FIE)												
-	Enable menu: DealerOn(FIE)												
-	Enable menu: Digital Motors (FIE)												
-	Enable menu: DocuPad (PEN)												
-	Enable menu: Esntial (FIE)												
-	Enable menu: FIE Direct												
-	Enable menu: Fuse Auto Tech (FIE)												
-	Enable menu: Gold Standard												
-	Enable menu: Gubagoo (PEN)												
-	Enable menu: IAAWG Smart Menu (PEN)												
-	Enable menu: IAS Smart Menu (PEN)												
-	Enable menu: Impact Group												
-	Enable menu: Impact Group (PEN)												
-	Enable menu: iTap (PEN)												
-	Enable menu: Line 5 (FIE)												
-	Enable menu: Line5												
-	Enable menu: MaximTrak (PEN)												
-	Enable menu: MenuMetric												
-	Enable menu: MenuSys (PEN)												
-	Enable menu: MenuVantage												
-	Enable menu: OneTouch (PEN)												
-	Enable menu: OpsVision												
-	Enable menu: OptionSoft (FIE)												
-	Enable menu: OptionSoft (PEN)												
-	Enable menu: Ottomoto												
-	Enable menu: Ottomotto												
-	Enable menu: PCRS PLW												
-	Enable menu: Process Pro (PEN)												
-	Enable menu: ProSource (PEN)												
-	Enable menu: Reynolds and Reynolds (PEN)												
-	Enable menu: Roadster												
-	Enable menu: Roadster (PEN)												
-	Enable menu: Roadster(FIE)												
-	Enable menu: Sonsio												
-	Enable menu: Stone Eagle (FIE)												
-	Enable menu: Stone Eagle (PEN)												
-	Enable menu: Stone Eagle FI (PEN)												
-	Enable menu: TecAssured (PEN)												
-	Enable menu: Tekion												
-	Enable menu: Tekion (FIE)												
 	Enable menu: TruePic Vision								Y				
-	Enable menu: Upstart (PEN)												
-	Enable menu: Vision Menu (FIE)												
-	Enable menu: Wayne Reaves (FIE)												
-	Enable menu: Web Finance Direct (FIE)												
-	Enable menu: APC												
-	Enable menu: APCO												
-	Enable menu: Autoguard												
-	Enable menu: Autonet Mobile												
-	Enable menu: AutoSoft Go												
-	Enable menu: AutoXPlorer												
-	Enable menu: CarNow(FIE)												
-	Enable menu: CustomConnect												
-	Enable menu: Darwin (FIE)												
-	Enable menu: Darwin Menu (PEN)												
-	Enable menu: DAVE Menu												
-	Enable menu: DCS Software(PEN)												
-	Enable menu: Dealer Policy												
-	Enable menu: Dealer Process												
-	Enable menu: Dealer Track												
-	Enable menu: DealerCenter(FIE)												
-	Enable menu: DealerSocket (FIE)												
-	Enable menu: Demo eMenu (Certification)												
-	Enable menu: DeskIT												
-	Enable menu: DiscoverTec												
-	Enable menu: DriveItAway												
-	Enable menu: Endurance												
-	Enable menu: F&I Express												
-	Enable menu: FORD Test												
-	Enable menu: ForeverCar												
-	Enable menu: Frazer (FIE)												
-	Enable menu: Fusion Menu												
-	Enable menu: Good Sam												
-	Enable menu: Gubagoo (FIE)												
-	Enable menu: IAS SmartMenu												
-	Enable menu: iLending Direct												
-	Enable menu: Inline Data Systems												
-	Enable menu: iTap Menu												
-	Enable menu: Line5 (PEN)												
-	Enable menu: Marathon												
-	Enable menu: MaximTrak												
-	Enable menu: McGraw Western												
-	Enable menu: Menu Metric (FIE)												
-	Enable menu: Menumetric (PEN)												
-	Enable menu: MenuSys												
-	Enable menu: MenuVantage (PEN)												
-	Enable menu: Moxy Solutions												
-	Enable menu: OptionSoft Technologies												
-	Enable menu: Other												
-	Enable menu: PCRS Integrated												
-	Enable menu: PEN												
-	Enable menu: PENN API												
-	Enable menu: Process Pro												
-	Enable menu: Prodigy (PEN)												
-	Enable menu: Protective												
-	Enable menu: Reynolds and Reynolds												
-	Enable menu: RHAC Systems												
-	Enable menu: Ristken												
-	Enable menu: Route One (PEN)												
-	Enable menu: RouteOne												
-	Enable menu: SeaPine Menu												
-	Enable menu: Signal Lending												
-	Enable menu: Skywerks (PEN)												
-	Enable menu: SPP Express												
-	Enable menu: StoneEagle												
-	Enable menu: Tekion (F&I)												
-	Enable menu: Tekion (PEN)												
-	Enable menu: TRONIX												
-	Enable menu: VisionMenu												
-	Enable menu: VSC Direct												
 	Enable menu: Wilson Technologies								Y				
-	Enable menu: PresentNow												
 Coupon	READ Coupon						Y		Y	Y		Y	Y
 	ADD Coupon						Y		Y	Y		Y	Y
 	EDIT Coupon						Y		Y	Y		Y	Y
 	DELETE Coupon								Y	Y			Y
-Coverage	READ Product (OLD)												
-	READ Coverage (NEW) (Search Coverage)												
 	READ Coverage (Search Coverage)					Y	Y	Y	Y	Y	Y	Y	Y
 	ADD Coverage   							Y				Y	Y
 	EDIT Coverage							Y				Y	Y
@@ -648,7 +432,6 @@ Coverage	READ Product (OLD)
 	ADD Documents												Y
 	EDIT Documents												Y
 	DELETE Documents												Y
-	Bulk Rates Export												
 	Bulk Rates Import												Y
 Deal Search	READ Deal Search												Y
 	EDIT Deal Details												Y
@@ -720,7 +503,6 @@ Dealer	READ Dealer (Search Dealer)	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	EDIT Dealer Markup/Packs												Y
 	DELETE Dealer Markup/Packs												Y
 	READ Dealer Audit Log Tab											Y	Y
-	Unlock Dealer Locked by Another user												
 	EDIT Dealer Auto-Void Settings												Y
 	Update Unpaid Claims with New Payment Data												Y
 Dealer - Configure Supplies	READ Configure Supplies												Y
@@ -744,7 +526,6 @@ Dealer Group Hierarchy	READ Dealer Group Hierarchy						Y					Y	Y
 	ADD Dealer Group Hierarchy											Y	Y
 	EDIT Dealer Group Hierarchy											Y	Y
 	DELETE Dealer Group Hierarchy												Y
-DPayee													
 Earning Assignments	READ Earning Assignments Rates						Y	Y					Y
 	ADD Earning Assignment Rate												Y
 	EDIT Earning Assignments Rates												Y
@@ -763,7 +544,6 @@ Eligibility Tiers	READ Eligibility Tiers					Y	Y					Y	Y
 	ADD Eligibility Tiers												Y
 	EDIT Eligibility Tiers												Y
 	DELETE Eligibility Tiers												Y
-Enterprise Dynamic Reporting	Run Claims Cube.												
 	Can CREATE PowerBI reports												Y
 	Can EDIT PowerBI reports												Y
 	Can READ PowerBI reports												Y
@@ -771,7 +551,6 @@ Enterprise Dynamic Reporting	Run Claims Cube.
 F&I Deal Log	READ F&I Deal Log												Y
 	SEE All F&I Users Within Dealer												Y
 	EDIT F&I Deal Log												Y
-	EDIT F&I Deal Log - Sale Date – integrated dealers												
 	EDIT Other F&I Users Data												Y
 	READ DMS Deal Mapping												Y
 	EDIT DMS Deal Mapping												Y
@@ -784,14 +563,6 @@ Form Definition	READ Form Definition (Search Form Definition)					Y	Y					Y	Y
 	DELETE Message												Y
 FSM	EDIT FSM Forecasts 												Y
 Hidden Category	Can access Web API												Y
-	Can Access Get City And State API												
-	Can Access Verify Address API												
-	Can Access Package Presentation API												
-	Dealer Service module												
-	Auto-generate Incentive Programs Date Range Code												
-	Access Test Pages												
-	Can access API only via gateway												
-Import Process	Allow to access VS export/import												
 	USE Conversion Data												Y
 	IMPORT Warehouse Contracts												Y
 	Search Upload File												Y
@@ -814,8 +585,6 @@ Import Process	Allow to access VS export/import
 	IMPORT  Flex - Prepaid Maintenance 												Y
 	Import Suspended Contracts												Y
 	Search Suspended Contracts												Y
-	IMPORT Service Reimbursements												
-	IMPORT Service Exceptions												
 Incentive Programs	READ Incentive Programs (Search Incentive Programs)						Y	Y				Y	Y
 	ADD Incentive Programs												Y
 	EDIT Incentive Programs												Y
@@ -838,18 +607,7 @@ Incentive Programs	READ Incentive Programs (Search Incentive Programs)						Y	Y	
 	EDIT Exchange Rate												Y
 	READ Exchange Rate												Y
 	READ Reinsurance Program Audit Log Tab												Y
-	ADD Reinsurance Program Product Types												
-	DELETE Reinsurance Program Product Types												
-	ADD Reinsurance Program Coverages												
-	DELETE Reinsurance Program Coverages												
 	READ Premium Tax Profiles												Y
-	ADD Premium Tax Profiles												
-	EDIT Premium Tax Profiles												
-	DELETE Premium Tax Profiles												
-	ACCESS Reinsurance Program Over Remit Recapture												
-Installment	ADD Installment												
-	DELETE Installment												
-	EDIT Installment												
 	READ Installment												Y
 Insurance Company	READ Accounting Tab												Y
 	EDIT Accounting Information												Y
@@ -858,30 +616,19 @@ Insurance Company	READ Accounting Tab												Y
 	CHANGE Insurance Company												Y
 	DELETE Insurance Company												Y
 Interest Rate Profiles	READ Interest Rate Profiles												Y
-	ADD Interest Rate Profiles												
-	EDIT Interest Rate Profiles												
-	DELETE Interest Rate Profiles												
-	CLOSE Interest Rate Profiles												
 	READ Interest Rate Profiles Audit Log												Y
-	IMPORT Interest Rate Profiles												
 Lender	READ Lender Information						Y	Y				Y	Y
 	ADD Lender Information												Y
 	EDIT Lender Information											Y	Y
 	EDIT Federal Tax ID											Y	Y
-	VIEW Federal Tax ID												
 	DELETE Lender Information												Y
 	EDIT Lender Number												Y
-	ACCESS Notes												
 Note Types	AVAILABLE Assigned note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Call Log note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Cancellation Request note type												Y
-	AVAILABLE CoBuyer Info note type												
-	AVAILABLE Consumer Info Change note type												
 	AVAILABLE Contact Authorization note type												Y
 	AVAILABLE Contract Rejection Reason note type												Y
 	AVAILABLE Contract Upload note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	AVAILABLE CRM note type												
-	AVAILABLE Customer Contact note type												
 	AVAILABLE Customer Knowledge note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Delayed note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Disposition note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
@@ -895,28 +642,15 @@ Note Types	AVAILABLE Assigned note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Incoming note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Information note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Inspection Note note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	AVAILABLE Invoice Number note type												
 	AVAILABLE Legal note type												Y
 	AVAILABLE Legal Representation  note type												Y
-	AVAILABLE LH Initiated Cancel note type												
-	AVAILABLE Loss Description note type												
 	AVAILABLE Mainframe Refresh note type												Y
 	AVAILABLE Outgoing note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Part Information note type						Y						Y
-	AVAILABLE Potential Fraud note type												
-	AVAILABLE Prior Accident note type												
-	AVAILABLE Prior Repairs note type												
 	AVAILABLE Quote note type												Y
 	AVAILABLE Reminder note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	AVAILABLE Report by FIN note type												
-	AVAILABLE Report by Operator note type												
-	AVAILABLE Report by Owner note type												
-	AVAILABLE Report by Shop note type												
-	AVAILABLE Report-No Cov note type												
-	AVAILABLE Shop Contact note type												
 	AVAILABLE Status Change Upload note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	AVAILABLE Transfer note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
-	AVAILABLE Uncollectable note type												
 	AVAILABLE Upgrade/Renewal Call note type												Y
 	AVAILABLE Warning note type	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 Payee	ADD Payee									Y			Y
@@ -926,12 +660,6 @@ Payee	ADD Payee									Y			Y
 	EDIT Federal Tax ID												Y
 	VIEW Federal Tax ID												Y
 	EDIT Payee Number												Y
-Payment Account Information	READ ACH Details												
-	ADD ACH Details												
-	EDIT ACH Details												
-	DELETE ACH Details												
-PCRS CRM													
-Performance Reporting	PWR0301 - Sales Dashboard												
 Policy Allocation	READ Policy Allocation												Y
 	ADD Policy Allocation												Y
 	EDIT Policy Allocation												Y
@@ -945,7 +673,6 @@ Rate Books	READ Rate Books												Y
 	ADD Rate Books												Y
 	EDIT Rate Books												Y
 	DELETE Rate Books												Y
-Rate Charts	ACCESS Rate Charts												
 Rating Profiles	READ Rating Profiles 						Y					Y	Y
 	ADD Rating Profiles						Y						Y
 	EDIT Rating Profiles						Y						Y
@@ -973,7 +700,6 @@ Reinsurance Program	READ Reinsurance (Search Reinsurance Company)						Y	Y				Y	
 	READ Reinsurance Company Management Companies												Y
 	ADD Reinsurance Company Management Companies												Y
 	EDIT Reinsurance Company Management Companies												Y
-	DELETE Reinsurance Company Management Companies												
 	EDIT Federal Tax ID											Y	
 	VIEW Federal Tax ID												Y
 	EDIT Reinsurance Company Bank Activity Sub Account												Y
@@ -984,7 +710,6 @@ Reinsurance Program	READ Reinsurance (Search Reinsurance Company)						Y	Y				Y	
 	DELETE Notes												Y
 	EDIT Notes												Y
 	READ Notes Tab												Y
-Report Subscriptions	SUBSCRIBE to RTP214 Executive Summary												
 	SUBSCRIBE to Report RPT050											Y	
 	SUBSCRIBE to RPT215 BDM											Y	
 	SUBSCRIBE to RPT215 Principal											Y	
@@ -992,12 +717,8 @@ Report Subscriptions	SUBSCRIBE to RTP214 Executive Summary
 Reports - Admin	READ Risk Management						Y	Y				Y	Y
 	RUN Claims Detail 						Y	Y				Y	Y
 	RUN Contracts Export						Y-$10,000					Y-$10,000	Y
-	OVERWRITE Saved Contracts Export Template												
 	RUN ETAV/RVI						Y	Y					
 	Execute RPT070_EtchReservesReport.												Y
-	OVERWRITE Saved Claim Export Template												
-	RUN Etch Reserves (4k Plan)												
-	RUN Loyalty Reward Reserves												
 	ACCESS RPT151 Contracts Sale						Y	Y					Y
 	ACCESS RPT165 Daily Transaction												Y
 	ACCESS RPT170 Sales Profit Prepaid												Y
@@ -1015,20 +736,10 @@ Reports - Admin	READ Risk Management						Y	Y				Y	Y
 	ACCESS RPT579 - Cancellation Report.												Y
 	RPT600 Payee Dropdown- Exclude Agent Payees for Dealer Group Users												Y
 	RPT600 Payee Dropdown- Exclude non-Main Agent Payees for Dealer Group Users												Y
-	ACCESS RPT613 - Over Remit Payee Report.												
-	ACCESS RPT624 - Bucket Level Payee Report.												
 	Execute RPT650 - Coverage Summary.						Y	Y				Y	Y
 	ACCESS RPT710 - Bucket Breakdown.											Y	Y
-	ACCESS RPT746 - PPM Summary.												
-	ACCESS RPT747 - Cancellation Bucket Report.												
-	ACCESS RPT774 - Vehicle Sales Penetration Report.												
-	ACCESS RPT775 - Incentive Year Report Net.												
-	RPT905 - View Out of Balance Contracts with Discrepancy Notes												
-	ACCESS RPT951 - Dealer Coverage Association.												
-	ACCESS Provider Diagnostics Report.												
 	ACCESS RPT1500 - Dealer Billing Statement.												Y
 	ACCESS RPT1502 - Dealer Statement.												Y
-	ACCESS RPT774V2 - Contract Sales Penetration Report.												
 Reports - Billing	RUN Dealer Receivables Statement												Y
 Reports - Billing & Payments	ACCESS RPT160 - List of Registers.												Y
 	ACCESS RPT161 - Out of Balance Registers.												Y
@@ -1036,9 +747,7 @@ Reports - Billing & Payments	ACCESS RPT160 - List of Registers.												Y
 	ACCESS RPT164 - List of Deposits.												Y
 	ACCESS RPT202 - Dealer Receivable Report.												Y
 	ACCESS RPT203 - Cash Balancing Payments.												Y
-	ACCESS RPT205 - Remittance Recipient Receivables Detail.												
 	ACCESS RPT206 - Cash Balancing Receivable Detail.												Y
-	ACCESS RPT207 - AR Roll Forward Report.												
 	ACCESS RPT600 - Payee Statement.											Y	Y
 	ACCESS RPT602 - Payee Extract.											Y	Y
 	ACCESS RPT612 - Payee Statement by Dealer.												Y
@@ -1066,10 +775,8 @@ Reports - Claims	ACCESS RPT555 Claim Summary	Y	Y	Y	Y	Y	Y	Y				Y	Y
 	ACCESS RPT564 - Claim Activity by Adjuster.	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ACCESS RPT588 - Servicer Portal Claim Details.											Y	Y
 	ACCESS RPT589 - Servicer Portal KPI Report.											Y	Y
-Reports - Configuration	Execute RPT577 - Claim Management Statement												
 	RUN F&I reports with Dealer Names						Y	Y				Y	Y
 	RUN Risk Management						Y	Y				Y	Y
-	ACCESS RPT150 - Contract Sale.												
 	ACCESS RPT721 Remitted and Pending Contracts						Y	Y				Y	Y
 	RUN Performance Analysis						Y	Y				Y	Y
 	RUN Submitting Agent Summary						Y	Y					Y
@@ -1087,94 +794,28 @@ Reports - Configuration	Execute RPT577 - Claim Management Statement
 	Run RPT605 - Remittance Monitor.						Y	Y					Y
 	Run Financial Summary.						Y	Y					Y
 	Can Run RPT502 - Claim Marketing Report.											Y	
-	ACCESS RPT503 Contracts Limit Of Liability												
-	ACCESS RPT531 - LOC Report.												
-	Execute RPT549 - VIN Part History.												
 	Execute RPT552 - Sales and Claims Loss Ratio.												Y
 	Execute RPT554 - Claim Management Listing.												Y
 	ACCESS RPT574 - Cancellation Recap Report.												Y
 	ACCESS RPT576 - Reward Coupons.						Y		Y	Y	Y	Y	Y
-	Execute RPT581 - Client Activity Report.												
-	Execute RPT582 - Claim Transmittal Report.												
 	Execute RPT583 - Payment Processor Activity List.									Y			Y
 	Execute RPT587 - Open Claims Listing Details.												Y
-	ACCESS RPT608 - Sales Summary By Dealer Group Type.												
-	ACCESS RPT609 - Sales Summary Comparison Report.												
-	Can Run RPT614 - Dealer Group Monthly Sales Summary.												
 	Can Run RPT615 - Dealer Production Report.												Y
-	Execute RPT616 - Agent And Dealer Sales Count Report.												
 	ACCESS RPT621 - Sale Gross Summary By Coverage.												Y
-	Execute RPT622 - Monthly Business Report.												
-	Execute RPT628 - Earnings Run-Off Report.												
 	ACCESS RPT640 - Earning Curve Extract.						Y	Y					Y
 	Can Run RPT652 - Dealer Coverage Configuration.												Y
 	ACCESS RPT660 - Dealer Listing.						Y	Y				Y	Y
 	ACCESS RPT670 - Lender Summary.											Y	Y
-	Execute RPT681 - Sales Commission Report.												
 	ACCESS RPT690 - User Security Report.						Y	Y				Y	Y
 	ACCESS RPT691 - Security Rules Details.												Y
-	ACCESS RPT703 - Dealer Pack and Over Remit Report.												
 	ACCESS RPT704 - Form Configuration.												Y
-	ACCESS RPT707 - Vehicle Attribute Changes.												
-	ACCESS RPT711 - Rate Bucket Details.												
-	ACCESS RPT719 - Contract Surcharge Details.												
 	ACCESS RPT720 - Dealer Configuration.											Y	Y
-	Execute RPT722 - Rating Profile Configuration.												
-	ACCESS RPT743 - Contract Income.												
-	ACCESS RPT745 - Client Contract Details.												
-	ACCESS RPT760 - Dividend Drilldown Details.												
-	ACCESS RPT765 - Vehicle Sale Report.												
-	ACCESS RPT770 - Dividend Yearly Analysis Nissan.												
-	ACCESS RPT770V2 - Dividend Yearly Analysis Nissan.												
-	ACCESS RPT771 - Dividend Yearly Analysis Infiniti.												
-	ACCESS RPT771V2 - Dividend Yearly Analysis Infiniti.												
-	ACCESS RPT772 - Dividend Forecasting Analysis.												
-	ACCESS RPT773 - Dividend OR Program Analysis Report.												
-	Execute DailyGapDocumentsReport.												
-	ACCESS RPT790 - ROI Report.												
 	Execute RPT914A - Quarrterly Summary by IBNR.												Y
-	Execute RPT914D - Dealer Cession Statement.												
-	Execute RPT914T - Cession Summary.												
-	Execute RRPT919 - Portfolio.												
-	Execute RPT920/925V2  - Contract Sales Rankings.												
-	ACCESS RPT940 - Contract Remittance and Penetration.												
-	ACCESS RPT950 - Net OverRemit Recovery.												
-	Execute DailyGapReqDocReport.												
-	ACCESS RPT1000 - Contract Sales Inquiry.												
-	ACCESS RPT1005 - Dealer Statement.												
-	Execute RPT1006 - Emenu Utilization Report.												
-	Execute RPT1007C - VS Extract Claims Response Report.												
 	Can Run RPT1010 - User Listing Report.												Y
-	Execute RPT1012 - Sales Metrics.												
-	Execute RPT1020 - Supply Order Report.												
-	ACCESS RPT1031 - Coverage Setup - Rates Details.												
-Reports - Dealer Participation	ACCESS RPT900 - Reinsurance Dealers.												
-	ACCESS RPT901 - Cession Statement.												
-	ACCESS RPT903 - Cession Contract Details.												
-	ACCESS RPT904 - Cession Claim Details.												
 	ACCESS RPT910 - Reinsurance Written Summary.												Y
 	ACCESS RPT912 - Reinsurance Written Summary Percent Admin.												Y
-	ACCESS RPT914 - Cession Statement.												
 	ACCESS RPT915 - Reinsurance Earned Summary.												Y
 	ACCESS RPT916 - Reinsurance Earned Summary Percent Admin.												Y
-	ACCESS RPT918 - Reinsurance Experience.												
-	ACCESS RPT921 - Company Ceding ITD Written.												
-	ACCESS RPT927 - Reinsurance Program Coverage Details Report.												
-	ACCESS RPT928 - Reinsurance Summary with Management Data.												
-	ACCESS RPT929 - Reinsurance Company Summary.												
-	ACCESS RPT934 - Reinsurance Dealer Configuration Report.												
-	ACCESS RPT935 - Reinsurance Company Configuration Report.												
-	ACCESS RPT936 - Retro Participation.												
-	ACCESS RPT948 - UPR Cession Statement Details.												
-	ACCESS RPT949 - Retro Participation Report.												
-	ACCESS RPT980 - Underwriting Statement.												
-	ACCESS RPT981 - 12MonthUnderwritingTrend.												
-	ACCESS RPT982 - DOOC Income Statement.												
-	ACCESS RPT983 - Balance Sheet.												
-	ACCESS RPT984 - Billing Statement.												
-	ACCESS RPT986 - Cession Executive summary.												
-	ACCESS RPT987 - Cession Excecutive Details.												
-	ACCESS RPT915V2 - Reinsurance Earned Summary.												
 Reports - Finance	Earnings Fee/Bucket Category Dropdown - RESTRICT to Reserves & Fees												Y
 	ACCESS RPT630 Earning Audit Report						Y	Y					Y
 	ACCESS RPT740 Contracts Income												Y
@@ -1189,13 +830,10 @@ Reports - Finance	Earnings Fee/Bucket Category Dropdown - RESTRICT to Reserves &
 	ACCESS RPT638 - Unearned Premium Reserve Detail.												Y
 	Execute RPT741 - Income Summary By Dealer												Y
 	ACCESS RPT742 - Contract Adjustment Report.												Y
-	Execute RPT744 - Income Summary By Bucket												
-	ACCESS RPT748 - Pending Non-Funded Contract Summary.												
 	ACCESS RPT1504 - Contract Income.												Y
 Reports - Risk Management	ACCESS RPT400 - Class Profitability.						Y	Y				Y	Y
 	ACCESS RPT410 - Dealer Group Profitability.						Y	Y				Y	Y
 	ACCESS RPT420 - Dealer Profitability by Class.						Y	Y				Y	Y
-	ACCESS RPT421 - Dealer Group Profitability By Class.												
 	ACCESS RPT430 - Dealer Profitability by Coverage.						Y	Y				Y	Y
 	ACCESS RPT440 - Dealership Group Profitability by Coverage.						Y	Y				Y	Y
 	ACCESS RPT450 - Manufacturer Model Profitability.						Y	Y				Y	Y
@@ -1210,88 +848,10 @@ Reports - Sales	ACCESS RPT603 Sales Summary						Y	Y					Y
 	ACCESS RPT620 Sale Gross Summary By Coverage												Y
 	ACCESS RPT920 Contracts/Penetration Sales Rankings												Y
 	ACCESS RPT920V3 - Contract Sales Rankings.												Y
-	Parts Program - Dashboard												
 Risk Management	READ Risk Management						Y	Y				Y	Y
 Sales	View Sales Dashboard	Y					Y	Y				Y	Y
-	Sales Dashboard - Show Estimated Commission												
 	Display Dashboard Claims Tab	Y					Y	Y				Y	Y
 	READ Vehicle Sales Projections	Y					Y	Y					
-	EDIT Vehicle Sales Projections												
-	Sales Dashboard Hide Product Type  - ADR												
-	Sales Dashboard Hide Product Type  - AP												
-	Sales Dashboard Hide Product Type  - APMC												
-	Sales Dashboard Hide Product Type  - APRV												
-	Sales Dashboard Hide Product Type  - AW												
-	Sales Dashboard Hide Product Type  - BAT												
-	Sales Dashboard Hide Product Type  - BATT												
-	Sales Dashboard Hide Product Type  - BDL												
-	Sales Dashboard Hide Product Type  - BLSI												
-	Sales Dashboard Hide Product Type  - BLW												
-	Sales Dashboard Hide Product Type  - BUND												
-	Sales Dashboard Hide Product Type  - CBP												
-	Sales Dashboard Hide Product Type  - CI												
-	Sales Dashboard Hide Product Type  - CL												
-	Sales Dashboard Hide Product Type  - COMM												
-	Sales Dashboard Hide Product Type  - CPW												
-	Sales Dashboard Hide Product Type  - CU												
-	Sales Dashboard Hide Product Type  - DENT												
-	Sales Dashboard Hide Product Type  - DEP												
-	Sales Dashboard Hide Product Type  - DIS												
-	Sales Dashboard Hide Product Type  - DP												
-	Sales Dashboard Hide Product Type  - ESC												
-	Sales Dashboard Hide Product Type  - ETCH												
-	Sales Dashboard Hide Product Type  - EWT												
-	Sales Dashboard Hide Product Type  - FLP												
-	Sales Dashboard Hide Product Type  - FPPM												
-	Sales Dashboard Hide Product Type  - GAP												
-	Sales Dashboard Hide Product Type  - GCC												
-	Sales Dashboard Hide Product Type  - GTLC												
-	Sales Dashboard Hide Product Type  - ICP												
-	Sales Dashboard Hide Product Type  - JL												
-	Sales Dashboard Hide Product Type  - KEY												
-	Sales Dashboard Hide Product Type  - KPPM												
-	Sales Dashboard Hide Product Type  - LRW												
-	Sales Dashboard Hide Product Type  - LTW												
-	Sales Dashboard Hide Product Type  - LW												
-	Sales Dashboard Hide Product Type  - MAR												
-	Sales Dashboard Hide Product Type  - MBI												
-	Sales Dashboard Hide Product Type  - MNT1												
-	Sales Dashboard Hide Product Type  - ODS												
-	Sales Dashboard Hide Product Type  - OEMW												
-	Sales Dashboard Hide Product Type  - OTHE												
-	Sales Dashboard Hide Product Type  - PAF												
-	Sales Dashboard Hide Product Type  - PDR												
-	Sales Dashboard Hide Product Type  - PK3K												
-	Sales Dashboard Hide Product Type  - PK3W												
-	Sales Dashboard Hide Product Type  - PLW												
-	Sales Dashboard Hide Product Type  - PNT												
-	Sales Dashboard Hide Product Type  - PPM												
-	Sales Dashboard Hide Product Type  - PRP												
-	Sales Dashboard Hide Product Type  - PRPX												
-	Sales Dashboard Hide Product Type  - PS												
-	Sales Dashboard Hide Product Type  - PSP												
-	Sales Dashboard Hide Product Type  - PSPX												
-	Sales Dashboard Hide Product Type  - RHW												
-	Sales Dashboard Hide Product Type  - RS												
-	Sales Dashboard Hide Product Type  - RSC												
-	Sales Dashboard Hide Product Type  - RUN												
-	Sales Dashboard Hide Product Type  - RUST												
-	Sales Dashboard Hide Product Type  - RVT												
-	Sales Dashboard Hide Product Type  - THF												
-	Sales Dashboard Hide Product Type  - TIRE												
-	Sales Dashboard Hide Product Type  - TS												
-	Sales Dashboard Hide Product Type  - TW												
-	Sales Dashboard Hide Product Type  - TWC												
-	Sales Dashboard Hide Product Type  - TWTS												
-	Sales Dashboard Hide Product Type  - VSC												
-	Sales Dashboard Hide Product Type  - VSC2												
-	Sales Dashboard Hide Product Type  - VSCA												
-	Sales Dashboard Hide Product Type  - WAT												
-	Sales Dashboard Hide Product Type  - WEAR												
-	Sales Dashboard Hide Product Type  - WIND												
-	Sales Dashboard Hide Product Type  - WS												
-	Sales Dashboard Hide Product Type  - WT												
-	Sales Dashboard Hide Pending Contracts Information												
 Sales Register	READ Sales Register						Y					Y	Y
 	Allow user to process ACH Payments												Y
 	Allow user to process Credit Card (Customer) Payments												Y
@@ -1305,11 +865,8 @@ Sales Register	READ Sales Register						Y					Y	Y
 	Read Register Payment History						Y					Y	Y
 	Edit Register Payment History												Y
 	Delete Register Payment History												Y
-	Allow deleting registers from 'Closed month'												
 	Remit Claims on Sales Register												Y
 	Remit Other on Sales Register												Y
-Scheduling	Can read jobs												
-	Can schedule jobs												
 Screen Locks	READ Screen Locks						Y	Y		Y		Y	Y
 	UNLOCK Screen 					Y	Y	Y		Y		Y	Y
 Seller	Allow user to Access Absorb Training											Y	
@@ -1360,7 +917,6 @@ Tpa Policy	READ TPA Policy						Y	Y					Y
 	DELETE TPA Policy												Y
 TPA Settings	READ TPA Settings					Y							Y
 	EDIT TPA Settings												Y
-User Filter	DELETE User Filters												
 User Security	PCRS link visible on PCRS+	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	Take user to PCRS+						Y	Y				Y	Y
 	Clone User Profile/Template							Y				Y	Y
@@ -1368,10 +924,8 @@ User Security	PCRS link visible on PCRS+	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	READ User Profile (Search User)						Y	Y				Y	Y
 	ADD User							Y				Y	Y
 	CREATE Security Templates											Y	Y
-	Can remove personal data (right to be forgotten)												
 	EDIT User Profile  							Y				Y	Y
 	EDIT users with Custom Profile							Y				Y	Y
-	EDIT User Profile - Simple Mode												
 	Resend Activation Link							Y				Y	
 	DELETE User												Y
 	CHANGE Password							Y				Y	Y
@@ -1379,16 +933,9 @@ User Security	PCRS link visible on PCRS+	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	CHANGE Status							Y				Y	Y
 	ACCESS Role	Y-$1	Y-$1	Y-$1	Y-$1	Y-$1		Y-$1	Y-$1	Y-$1	Y-$1	Y-$1	Y
 	CHANGE Role							Y				Y	Y
-	ACCESS DMS Help												
 	READ Support Portal	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
 	ACCESS User Information Panel							Y				Y	Y
 	ACCESS User Role Template Panel							Y				Y	Y
-	VIEW Customer Portal - Associated Contracts												
-	EDIT Customer Portal - Associated Contracts												
-User Security - 2FA	Allow 2FA Do not ask again												
-	Enable 2FA via Application												
-	Enable 2FA via Email												
-	Enable 2FA via Sms												
 User Security - Positions to access	Accountant						Y	Y				Y	Y
 	Controller						Y	Y				Y	Y
 	Customer	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y	Y
@@ -1398,7 +945,6 @@ User Security - Positions to access	Accountant						Y	Y				Y	Y
 	Funding Contact						Y	Y				Y	Y
 	General Manager						Y	Y				Y	Y
 	Installer						Y	Y				Y	Y
-	Lender												
 	Monthly Remittance Contact						Y	Y				Y	Y
 	Office Manager						Y	Y					Y
 	Parts Manager						Y	Y				Y	Y
@@ -1406,25 +952,19 @@ User Security - Positions to access	Accountant						Y	Y				Y	Y
 	Residuals Contact						Y	Y				Y	Y
 	Sales Manager						Y	Y				Y	Y
 	Salesperson						Y	Y				Y	Y
-	Seller												
 	Service Adviser												Y
 	Service Manager						Y	Y				Y	Y
-	Shareholder												
-	SSO (single sign-on)												
-	Test Position for Contact												
 	TPA												Y
 	Unassigned Position						Y	Y				Y	Y
 	Workload distribution	Y	Y	Y	Y		Y	Y	Y	Y	Y	Y	Y
 User Security - Positions to EDIT	Accountant						Y	Y				Y	Y
 	Controller						Y	Y				Y	Y
-	Customer												
 	Dealer Principal						Y	Y				Y	Y
 	F&I Manager						Y	Y				Y	Y
 	Field Representative						Y	Y				Y	Y
 	Funding Contact						Y	Y				Y	Y
 	General Manager						Y	Y				Y	Y
 	Installer						Y	Y				Y	Y
-	Lender												
 	Monthly Remittance Contact						Y	Y				Y	Y
 	Office Manager						Y	Y				Y	Y
 	Parts Manager						Y	Y				Y	Y
@@ -1432,12 +972,8 @@ User Security - Positions to EDIT	Accountant						Y	Y				Y	Y
 	Residuals Contact						Y	Y				Y	Y
 	Sales Manager						Y	Y				Y	Y
 	Salesperson						Y	Y				Y	Y
-	Seller												
 	Service Adviser												Y
 	Service Manager						Y	Y				Y	Y
-	Shareholder												
-	SSO (single sign-on)												
-	Test Position for Contact												
 	TPA												Y
 	Unassigned Position						Y	Y				Y	Y
 	Workload distribution	Y	Y	Y	Y		Y		Y	Y	Y	Y	Y
@@ -1455,4 +991,3 @@ Volume Discounts	READ Volume Discounts						Y					Y	Y
 	ADD Volume Discounts												Y
 	EDIT Volume Discounts												Y
 	DELETE Volume Discounts												Y
-Work Queue													
